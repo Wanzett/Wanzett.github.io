@@ -3,8 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Balloons_atlas_", frames: [[717,1066,674,458],[0,1148,674,458],[717,581,771,483],[0,0,749,579],[0,581,715,565],[751,0,644,540],[1397,0,620,518],[1393,1066,555,468],[1490,520,555,413],[676,1526,536,366],[0,1608,482,364],[1214,1733,620,176],[1214,1536,753,195]]},
-		{name:"Balloons_atlas_2", frames: [[999,0,10,419],[284,169,124,20],[819,0,178,268],[596,0,221,230],[0,0,594,167],[0,169,282,84]]}
+		{name:"Balloons_atlas_", frames: [[1268,1052,674,458],[2025,0,10,419],[1808,836,124,20],[751,567,771,483],[0,0,749,579],[751,0,715,565],[0,581,644,540],[646,1052,620,518],[1468,0,555,468],[0,1123,555,413],[1268,1512,536,366],[1524,470,482,364],[0,1769,620,176],[1806,1744,178,268],[1806,1512,221,230],[0,1572,753,195],[622,1769,594,167],[1524,836,282,84]]}
 ];
 
 
@@ -12,135 +11,128 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_19копия = function() {
-	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.CachedBmp_19 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_17 = function() {
-	this.initialize(ss["Balloons_atlas_2"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["Balloons_atlas_"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["Balloons_atlas_2"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["Balloons_atlas_"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["Balloons_atlas_2"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["Balloons_atlas_"]);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["Balloons_atlas_2"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["Balloons_atlas_"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
 	this.initialize(ss["Balloons_atlas_"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["Balloons_atlas_2"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["Balloons_atlas_"]);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Растровоеизображение1 = function() {
-	this.initialize(ss["Balloons_atlas_2"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["Balloons_atlas_"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -286,10 +278,7 @@ p.nominalBounds = new cjs.Rectangle(0.1,-36.9,322.5,120.5);
 	this.instance_1 = new lib.CachedBmp_19();
 	this.instance_1.setTransform(24,237.9,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_19копия();
-	this.instance_2.setTransform(24,-28.65,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1}]}).to({state:[{t:this.instance_2}]},30).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(27).to({x:12,y:-17.1},0).wait(3).to({x:24,y:-28.65},0).wait(1));
 
 	this._renderFirstFrame();
 
@@ -612,11 +601,10 @@ lib.properties = {
 	color: "#EFEFEF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Balloons_atlas_.png", id:"Balloons_atlas_"},
-		{src:"images/Balloons_atlas_2.png", id:"Balloons_atlas_2"},
-		{src:"sounds/popSFX.mp3", id:"popSFX"},
-		{src:"sounds/bgMusicSFX.mp3", id:"bgMusicSFX"},
-		{src:"sounds/winSFX.mp3", id:"winSFX"}
+		{src:"images/Balloons_atlas_.png?1630484467224", id:"Balloons_atlas_"},
+		{src:"sounds/popSFX.mp3?1630484467255", id:"popSFX"},
+		{src:"sounds/bgMusicSFX.mp3?1630484467255", id:"bgMusicSFX"},
+		{src:"sounds/winSFX.mp3?1630484467255", id:"winSFX"}
 	],
 	preloads: []
 };
